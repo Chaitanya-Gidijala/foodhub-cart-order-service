@@ -1,0 +1,14 @@
+# Environment — never commit secrets
+.env
+.env.local
+.env.*
+!.env.example
+
+# Build
+target/
+.mvn/
+
+# IDE
+.idea/
+*.iml
+.vscode/
